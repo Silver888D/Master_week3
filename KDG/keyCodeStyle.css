@@ -1,10 +1,22 @@
-body{background-color: rgb(29, 29, 131); color: aliceblue;}
+body{background-color: rgb(29, 29, 131); color: aliceblue; animation: wooow 4s ease-in-out 2s 1 forwards;}
+
+@keyframes wooow {
+    from {background-color: rgb(29, 29, 131);}
+    to {background-color: rgb(108, 108, 135);}}
 
 header{text-align: center; font-size: 70px;}
 
-.bigBox{display: flex; justify-content: center; }
+.bigBox{display: flex; justify-content: center; animation: dropDown 6s;}
 
-.box{display: flex; justify-content: space-evenly; margin-top: 10%; border-style: groove; width: 150vh; align-self: center;border-color: silver;}
+@keyframes dropDown{
+    from {margin-top: -100%; width: 100%;}
+    to {margin-top: 0%;width: 100%;}}
+
+.box{display: flex; justify-content: space-evenly; margin-top: 10%; border-style: groove; width: 150vh; align-self: center;border-color: silver; background-color: rgb(108, 108, 135); animation: wooowAgain 4s ease-in-out 2s 1 forwards;}
+
+@keyframes wooowAgain{
+    from {background-color: rgb(108, 108, 135);}
+    to {background-color: rgb(29, 29, 131);}}
 
 .key{display: flex; flex-direction: column;}
 
