@@ -1,0 +1,19 @@
+body{background-color: rgb(29, 29, 131); color: aliceblue;}
+
+header{text-align: center; font-size: 70px;}
+
+.bigBox{display: flex; justify-content: center; }
+
+.box{display: flex; justify-content: space-evenly; margin-top: 10%; border-style: groove; width: 150vh; align-self: center;border-color: silver;}
+
+.key{display: flex; flex-direction: column;}
+
+.key h2{text-transform: capitalize; border-style: ridge; border-radius: 5px; text-align: center; padding: 10px;border-color: silver;}
+
+.keyClass{display: flex; flex-direction: column;}
+
+.keyClass h2{text-transform: capitalize; border-style: ridge; border-radius: 5px; text-align: center; padding: 10px;border-color: silver;}
+
+.keyCode{display: flex; flex-direction: column;}
+
+.keyCode h2{text-transform: capitalize; border-style: ridge; border-radius: 5px; text-align: center; padding: 10px;border-color: silver;}
