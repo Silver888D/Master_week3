@@ -1,0 +1,15 @@
+#title{text-align: center; background-color: aqua;}
+
+#game{display: flex; flex-direction: column; background-color: bisque; text-align: center;}
+
+#roll{background-color: blue;}
+
+#displayBox{display: flex; flex-direction: row; justify-content: space-evenly;}
+
+#total{display: flex; flex-direction: column; background-color: brown;}
+
+#totalMsg{background-color: rgb(189, 50, 50);}
+
+#dieImg{height: fit-content;}
+
+#displayMsg{background-color: forestgreen;}
