@@ -1,0 +1,7 @@
+body{background-color: black; color: darkred;}
+
+.bigBox{display: flex; align-items: center; flex-direction: column;}
+
+.allButtons{display: flex; justify-content: space-evenly; width: 150vh; }
+
+button{padding: 20px; margin-top: 500px;}
