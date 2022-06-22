@@ -5,10 +5,10 @@ const msg = document.getElementById("displayMsg");
 const rollButton = document.getElementById("roll");
 let totalAmount = 0
 
-const rollDie = () => {msg.innerHTML = "Try to get to 20, Hit roll";
+const rollDie = () => {msg.innerHTML = "Try to get to 20. Hit roll";
     ranDie = Math.floor((Math.random()*6)+1); totalMsg.innerText = totalAmount += ranDie;
     document.getElementById("dieSide").src = rolledDie["die" + ranDie];
     if (ranDie == 1 && totalAmount <=20){msg.innerText = "Fail! You rolled a 1! Try again";totalAmount = 0;}
-    if (totalAmount >= 20){msg.innerText = "Congratulations! You've Won!, Hit Roll to try again"; totalAmount = 0;}}
+    if (totalAmount >= 20){msg.innerText = "Congratulations! You've Won! Hit Roll to try again"; totalAmount = 0;}}
 
 rollButton.addEventListener("click", rollDie)

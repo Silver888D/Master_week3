@@ -1,15 +1,17 @@
-#title{text-align: center; background-color: aqua;}
+*{margin: 40px;}
 
-#game{display: flex; flex-direction: column; background-color: bisque; text-align: center;}
+#title{text-align: center; font-size: 50px; font-style: oblique; color: rgb(12, 51, 12);}
 
-#roll{background-color: blue;}
+#game{display: flex; flex-direction: column; text-align: center;}
 
-#displayBox{display: flex; flex-direction: row; justify-content: space-evenly;}
+#roll{background-color: rgb(12, 51, 12); width: fit-content; align-self: center; font-size: 40px; border-radius: 5px;color: aliceblue;}
 
-#total{display: flex; flex-direction: column; background-color: brown;}
+#displayBox{display: flex; flex-direction: row; justify-content: center;}
 
-#totalMsg{background-color: rgb(189, 50, 50);}
+#total{display: flex; flex-direction: column; background-color: rgb(12, 51, 12); height: fit-content; padding: 10px; color: aliceblue;}
+
+#totalMsg{background-color: forestgreen; padding: 10px;}
 
 #dieImg{height: fit-content;}
 
-#displayMsg{background-color: forestgreen;}
+#displayMsg{background-color: rgb(12, 51, 12);height: fit-content; padding: 10px;color: aliceblue;}
